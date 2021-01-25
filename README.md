@@ -149,9 +149,9 @@ C'è anche la sezione dove inserire gli account social:
 
 ```
 twitter:
-  twitter_id: rubydayIT
+  twitter_id: vuedayIT
 fb:
-  fb_id: RubyDayIT
+  fb_id: vuedayIT
 ```
 
 **NB** c'è una issue di Hexo per cui
@@ -404,7 +404,7 @@ Dopo la sezione "Additional config" dove come detto si seleziona il tema, segue 
 ```
   # menu and general params
   menu_buy_tickets_label: "Buy tickets"
-  buy_tickets_url: "https://rubyday-2020.eventbrite.com/"
+  buy_tickets_url: "https://vueday-2020.eventbrite.com/"
 ```
 
 Label dei pulsanti *Buy tickets*, tranne quello presente nella *hero section* della home page (vedi sotto); URL del sito per l'acquisto dei biglietti
@@ -434,7 +434,7 @@ La mail di contatto, usata un po' ovunque (footer, pagina COC, etc.)
 ```
   # these are for the hero section
   title_pre: "Welcome to"
-  title: "RubyDay"
+  title: "vueday"
   city: "Verona"
   date: 2020-09-16T09:00
   countdown_visible: true
@@ -698,9 +698,9 @@ Nel footer, alcuni dati (ad es., la data)  vengono ripresi da ciò che abbiamo d
 ```
   # this is for the Social links block
   social_follow: "Follow us on"
-  social_fb_url: "https://www.facebook.com/RubyDayIT/"
+  social_fb_url: "https://www.facebook.com/vuedayIT/"
   social_linkedin_url: "https://www.linkedin.com/company/grusp/"
-  social_twitter_url: "https://twitter.com/rubydayIT"
+  social_twitter_url: "https://twitter.com/vuedayIT"
   social_vimeo_url: "https://vimeo.com/grusp"
   social_youtube_url: "https://www.youtube.com/channel/UCdWnwC8nz_CCFQrmLBrLCVw"
 ```
@@ -727,7 +727,7 @@ Questo viene usato per creare i link ai siti delle passate edizioni:
 L'URL base dei siti:
 
 ```
-  base_url: "rubyday.it/"
+  base_url: "vueday.it/"
 ```
 
 ...dopodiché i link vengono creati dinamicamente, ad es. `https://2011.[base_url]`
@@ -792,7 +792,7 @@ Il blocco "intro" contiene solo del testo libero...
 ```
 intro:
   main_title: "Welcome"
-  content_1: "RubyDay 2020 is the eighth edition of the Italian Ruby Conference, organised by GrUSP, organisers of events such as PHPDay and JSDay. Tehe event has an international audience and all session will be held in English."
+  content_1: "vueday 2020 is the eighth edition of the Italian Ruby Conference, organised by GrUSP, organisers of events such as PHPDay and JSDay. Tehe event has an international audience and all session will be held in English."
   content_2: "The event's goal is to allow all Rubyists to meet and share experiences while having fun and networking in an enjoyable context."
 ```
 
@@ -962,7 +962,7 @@ La `long_version` è differente: al posto di un unico `content_2` ci sono divers
 
 ```
   content_2_beginning: "You are invited to apply for "
-  content_2_link_label: "a single conference ticket for rubyday"
+  content_2_link_label: "a single conference ticket for vueday"
   content_2_link_url: "https://forms.gle/K7b38LbqVuAJ61MK9"
   content_2_ending: "  . We will notify all applicants regarding the outcome of their application. We don’t cover travel/accommodation expenses."
 ```
@@ -1671,7 +1671,7 @@ Fascia colorata:
 ```
 block_2:
   title: "Sponsorship options"
-  slogan: "You can sponsor RubyDay in several ways:"
+  slogan: "You can sponsor vueday in several ways:"
   subtitle_1: "Special events"
   content_1: "During the conference there are various moments for social aggregation between participants: coffee breaks, lunch, social night, speaker's dinners and pre-dinner aperitifs. Please get in touch with us to arrange the options that best suits your needs, or to share a brilliant sponsoring idea."
   subtitle_2: "Full packages"

@@ -8,14 +8,14 @@ intro:
     "GrUSP is a non-profit organisation whose aim is to improve a healthier and sustainable web development ecosystem in Italy. We organise affordable, high-quality events and workshops for developers and promote the creation of local user groups (PUG), helping them in their activities. <br>
     Diversity and inclusion have always been at the heart of our initiative. We have been applying a code of conduct for many years, and we have scholarship programs for each of our conferences."
 more:
-  title: "rubyday"
+  title: "vueday"
   content_1:
     "<strong>ruby</strong>day is the main conference in Italy that is dedicated solely to Ruby and its ecosystem.
     <br><br  />
     For the third year in a row, the conference is organized by GrUSP, with the support of the Italian Ruby community that you can join on <a href='http://bit.ly/join-slack-ruby-it'>Slack.</a>"
   content_2:
 past_edition:
-  title: "Browse past editions of rubyday"
+  title: "Browse past editions of vueday"
   video_url: "https://www.youtube.com/embed/videoseries?list=PLWK9j6ps_unmgzGOw3cbjS8ID-b-cF1d9"
   video_caption: "Watch the videos from the past editions"
 team:
