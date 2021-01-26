@@ -144,9 +144,9 @@ conference:
   community_partners_title: "Community Partners"
   # this is for the Social links block
   social_follow: "Follow us on"
-  social_fb_url: "https://www.facebook.com/vuedayit/"
+  social_fb_url: "https://www.facebook.com/vueday/"
   social_linkedin_url: "https://www.linkedin.com/company/grusp/"
-  social_twitter_url: "https://twitter.com/vuedayit"
+  social_twitter_url: "https://twitter.com/VueDay"
   social_vimeo_url: "https://vimeo.com/grusp"
   social_youtube_url: "https://www.youtube.com/c/grusp"
   social_instagram_url: "https://www.instagram.com/grusp_/"
@@ -177,15 +177,15 @@ conference:
   footer_links_privacy_link_label: "privacy policy"
   iubenda:
     # sostituire tutti questi parametri con quelli generati nel dashboard di iubenda.com cfr. https://gist.github.com/mbeccati/1bd9e562905a90e14d7d88ed3dcea34c
-    cookiePolicyId: 29098106
-    siteId: 1078163
+    cookiePolicyId: 49761585
+    siteId: 1473899
     lang: en
     enableRemoteConsent: true
-    localConsentDomain: sfday.it
+    localConsentDomain: vueday.it
     rebuildIframe: true
   privacy_policy_url_common: "https://www.iubenda.com/privacy-policy/"
   footer_link_middle: " and our "
   footer_coc_link_label: "code of conduct"
   # Google Tag Manager
   google:
-    tag_manager_id: "GTM-P5GXBFP"
+    tag_manager_id: " GTM-T7KBBJX"
