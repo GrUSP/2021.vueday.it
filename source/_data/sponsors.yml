@@ -1,4 +1,4 @@
-sponsors_block_title: ""
+sponsors_block_title: "Thanks to our sponsors"
 # main:
 #   sponsor1:
 #     name: ""
@@ -14,11 +14,11 @@ sponsors_block_title: ""
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# gold:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+gold:
+  sponsor1:
+    name: "Workwave"
+    logo_filename: "workwave.svg"
+    site_url: "https://www.workwave.com/"
 # silver:
 #   sponsor1:
 #     name: ""
@@ -37,7 +37,12 @@ sponsors_block_title: ""
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
+diversity:
+  sponsor1:
+    name: "balsamiq"
+    logo_filename: "balsamiq.svg"
+    site_url: "https://balsamiq.com/"
 
 # Partner configuration
 partner_tags:
-  - ruby
+  - vue

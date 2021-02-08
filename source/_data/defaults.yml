@@ -26,7 +26,7 @@ conference:
   title_pre: "Welcome to"
   title: "vueday Digital Edition"
   city: "online"
-  date: 2021-04-15T10:00+02:00
+  date: 2021-04-29T10:00+02:00
   countdown_visible: true
   countdown_days: "days"
   countdown_hours: "hours"
@@ -49,17 +49,16 @@ conference:
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers Now Open!"
-  cfp_deadline: 2021-02-15T23:59+01:00
+  cfp_deadline: 2021-02-28T23:59+01:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "vueday 2020 is the 9th edition of the Italian Ruby conference, for the 3rd year in a row organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a> and <a href='https://www.jsday.it/'>jsday</a>.
+  geninfo_description: "vueday 2021 is the 3rd edition of the Vue conference, from the GrUSP Team - organizer of events like <a href='https://www.jsday.it/'>jsday</a>.
   <br> <br /> The event is international and all sessions will be in English.
-  <br> The event’s goal is to allow all Rubyists to meet and share experience while having fun and networking in an enjoyable context.
-  <br />
-  <br> Due to the current pandemic situation, the 2021 edition is taking place online."
+  <br> <br /> Vue is a progressive framework for building user interfaces. Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects.
+  <br> <br /> Due to the current pandemic situation, the 2021 edition is taking place online."
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
@@ -70,11 +69,11 @@ conference:
   # fields taken from the Mail chimp default form -- set to `true` to add subscription
   newsletter_lists:
     php: false
-    javascript: false
+    javascript: true
     design: false
     devops: false
-    frontend: false
-    ruby: true
+    frontend: true
+    ruby: false
     entrepreneurship: false
     local_events: false
     everything: false
@@ -97,12 +96,12 @@ conference:
   topics_title: "Topics and themes"
   topics_description: "We'll talk about..."
   topics:
-    - "Ruby"
-    - "Ruby On Rails"
-    - "Security"
+    - "Nuxt.js"
+    - "Accessibility"
+    - "Vuex"
     - "Testing"
-    - "Continuous Integration"
-    - "API"
+    - "GraphQL"
+    - "Components & Libraries"
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
   workshop_visible: false
@@ -124,7 +123,7 @@ conference:
   vimeo_base_url: "https://vimeo.com/album/"
   vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unmgzGOw3cbjS8ID-b-cF1d9"
+  youtube_playlist_id: "PLWK9j6ps_unnhFRv8uda3vYzj1BnaJB5O"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   vimeo_showcase_id: "6048109"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
@@ -146,8 +145,8 @@ conference:
   social_follow: "Follow us on"
   social_fb_url: "https://www.facebook.com/vueday/"
   social_linkedin_url: "https://www.linkedin.com/company/grusp/"
-  social_twitter_url: "https://twitter.com/VueDay"
-  social_vimeo_url: "https://vimeo.com/grusp"
+  social_twitter_url: "https://twitter.com/vuedayit"
+  social_vimeo_url: "https://vimeo.com/channels/vueday"
   social_youtube_url: "https://www.youtube.com/c/grusp"
   social_instagram_url: "https://www.instagram.com/grusp_/"
 
@@ -158,12 +157,6 @@ conference:
   base_url: "vueday.it/"
   past_editions_pre: "Browse past editions:"
   past_editions:
-    2011: "2011"
-    2012: "2012"
-    2013: "2013"
-    2014: "2014"
-    2015: "2015"
-    2016: "2016"
     2019: "2019"
     2020: "2020"
   past_editions_videos_pre: "Videos from the past editions are available on "
