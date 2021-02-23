@@ -19,16 +19,16 @@ gold:
     name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
-# silver:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
-# bronze:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+silver:
+  sponsor1:
+    name: "Seesaw"
+    logo_filename: "seesaw.svg"
+    site_url: "https://www.seesaw.it/"
+bronze:
+  sponsor1:
+    name: "Stickermule"
+    logo_filename: "stickermule.svg"
+    site_url: "https://mule.to/p1j5"
 #   sponsor2:
 #     name: ""
 #     logo_filename: ""
