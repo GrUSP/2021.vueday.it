@@ -207,9 +207,10 @@ block content
 
                                 br
 
-                                span.track-title !{row_item.track.title}
+                                if (no_tracks > 1)
+                                  span.track-title !{row_item.track.title}
 
-                                br
+                                  br
 
                                 //- prendere la key (es. "talk_5") dalla lista originale, usarla per popolare l'ancora del link a talks_speakers
                                 - the_key = ""
