@@ -5302,7 +5302,8 @@ header {
       max-width: 120px; }
     .sponsors__container .inner .columns .column__media, .sponsors__container .inner .columns .column__media img {
       min-width: 100px;
-      max-width: 100px; }
+      max-width: 100px;
+      display: inline-block; }
 
 .community-partners-container h2 {
   color: #35495e;
@@ -5311,7 +5312,6 @@ header {
 
 .community-partners-container .inner {
   border: 8px solid #8ccaae !important;
-  padding: 2em;
   text-align: center;
   flex-flow: wrap; }
   .community-partners-container .inner .columns {
@@ -5322,7 +5322,8 @@ header {
       margin: 0 1em; }
     .community-partners-container .inner .columns .column__community, .community-partners-container .inner .columns .column__community img {
       min-width: 120px;
-      max-width: 120px; }
+      max-width: 120px;
+      display: inline-block; }
 
 .mailchimp-container a {
   color: #fff; }
