@@ -1,34 +1,63 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &regular_speaker
+speaker_1: &amarachi
   speaker_in_speaker_lists: true
-  speaker_name: Luca Guidi
-  speaker_pic_filename: lucaguidi.png
-  speaker_role: Author of Hanami
-  speaker_bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. And however, enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  speaker_github_url: "https://github.com/jodosha"
-  speaker_twitter_url: "https://twitter.com/jodosha"
-speaker_2: &keynote_speaker
+  speaker_name: Amarachi Amaechi
+  speaker_pic_filename: amarachi-amaechi.png
+  speaker_role: Frontend developer
+  speaker_bio: "is a Frontend developer and Technical writer. She is also the Founder and Organiser of Vuejs Nigeria."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/AmarachiAmaechi"
+speaker_2: &anthony
   speaker_in_speaker_lists: true
-  speaker_name: Keynote Speaker
-  speaker_pic_filename: giulia.jpeg
-  speaker_role: "speaker role (optional)"
-  speaker_bio: "Example of a workshop host that must appear in speaker lists"
-
+  speaker_name: Anthony Fu
+  speaker_pic_filename: anthony-fu.png
+  speaker_role: "Vue.js Core Team member"
+  speaker_bio: "is member of Vue.js and Vite.js. Passionate about making tools and improving DX."
+  speaker_twitter_url: "https://twitter.com/antfu7"
+speaker_3: &alexander
+  speaker_in_speaker_lists: true
+  speaker_name: Alexander Lichter
+  speaker_pic_filename: alexander-lichter.png
+  speaker_role: "Web Development Consultant @ Developmint"
+  speaker_bio: "is a Nuxt.js core-team member and full-stack developer in his twenties. When not working on open-source projects, he gives talks at conferences, writes blog posts or consults other companies on web development with a focus on Vue.js and Nuxt.js."
+  speaker_twitter_url: "https://twitter.com/TheAlexLichter"
+speaker_4: &jessica
+  speaker_in_speaker_lists: true
+  speaker_name: Jessica Sachs
+  speaker_pic_filename: jessica-sachs.png
+  speaker_role: "Tech Lead @ Cypress.io"
+  speaker_bio: "is tech Lead of Cypress.io Component Testing, Vue Mastery Instructor, and Maintainer of Vue Test Utils"
+  speaker_twitter_url: "https://twitter.com/@_JessicaSachs"
+speaker_5: &samuel
+  speaker_in_speaker_lists: true
+  speaker_name: Samuel Snopko
+  speaker_pic_filename: samuel-snopko.png
+  speaker_role: "Head of DevRel @ Storyblok"
+  speaker_bio: "is responsible for the developer relations at Storyblok. As the headless system's head of devrel, he spends most of his time buried in the documentation and creating various experiments and demos. He always defines himself as Creative FrontEnd Knight & DesignOps enthusiast with a passion for JAMStack and the beautiful web.
+  As a determined community believer, he co-created multiple meetups and is always happy to help any community in need."
+  speaker_twitter_url: "https://twitter.com/samuelsnopko"
+speaker_6: &james
+  speaker_in_speaker_lists: true
+  speaker_name: James Heda Weng
+  speaker_pic_filename: james-heda-weng.png
+  speaker_role: "Product Manager & Lead Designer @ StyleSage"
+  speaker_bio: "PhD of Fine Arts, Product Manager & Lead Designer @ StyleSage, Lecturer @ Nebrija University. 7+ years of work experience as UX/UI designer, Frontend Developer & Product Manager."
+  speaker_twitter_url: "https://twitter.com/jameshedaweng"
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
+#  track_2: &track_2
+#    id: 2
+#    title: "Track 2"
+#  track_3: &track_3
+#    id: 3
+#    title: "Track 3 - fake track"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -40,106 +69,87 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2021-04-29T09:00+02:00
     title: "Day 1"
     talks:
       talk_1:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
-        talk_title: "Check-in"
+        start_datetime:
+        end_datetime:
+        talk_title: "GrUSP intro"
       talk_2:
-        item_type: "service"
-        start_datetime: 2020-09-16T09:30
-        end_datetime: 2020-09-16T09:45
-        talk_title: "GrUSP presentation"
-      talk_3:
-        item_type: "keynote"
-        start_datetime: 2020-09-16T09:45
-        end_datetime: 2020-09-16T10:00
-        talk_title: "Keynote title (optional)"
-        talk_description: "Keynote description (optional)"
-        speakers:
-          speaker_1: *keynote_speaker
-      talk_4:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2020-09-16T10:00
-        end_datetime: 2020-09-16T10:45
-        talk_title: Lorem ipsum
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
+        start_datetime:
+        end_datetime:
+        talk_title: "Composable Vue 3"
+        talk_description: "Brief intro to the Composition API, along with some tips/pattern for writing good composable functions."
         speakers:
-          speaker_1: *regular_speaker
+          speaker_1: *anthony
+      talk_3:
+        item_type: "talk"
+        start_datetime:
+        end_datetime:
+        talk_title: "Nuxt.js and the Composition API"
+        talk_description: "Vue 3 and the Composition API are out for a bit now... but what is about Server-Side Rendering with the composition API, especially when using Nuxt.js? In this talk, we take a look at use cases and features of the Nuxt Composition API module."
+        speakers:
+          speaker_1: *alexander
+      talk_4:
+        item_type: "service"
+        start_datetime:
+        end_datetime:
+        talk_title: "Coffee break"
+        service_icon: "coffee"
       talk_5:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2020-09-16T11:00
-        end_datetime: 2020-09-16T12:00
-        talk_title: Lorem ipsum
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
+        start_datetime:
+        end_datetime:
+        talk_title: "Fast, optimized & SEO friendly apps with Nuxt"
+        talk_description: "One of the biggest selling points of Nuxt.js is that it can help your application with Search Engine Optimization (SEO) and to rank better on Google. In this talk, we’ll go over the best practices to make sure that your Nuxt application is set up properly to rank on search engines."
         speakers:
-          speaker_1: *regular_speaker
+          speaker_1: *amarachi
       talk_6:
-        item_type: "service"
-        start_datetime: 2020-09-16T10:45
-        end_datetime: 2020-09-16T11:00
-        talk_title: "Coffee break"
-        service_icon: "coffee"
+        item_type: "talk"
+        start_datetime:
+        end_datetime:
+        talk_title: "A sneak peak into the future headless eCommerce"
+        talk_description: "Join us as we look into our crystal ball and predict the future! Jamstack brought us the decoupled (not dystopian 😇) architecture. This new wave of SaaS products and services is here to stay. The advantages are clear:
+        - better UX
+        - better DX
+        - faster websites
+        - more effective development
+        - previews with real-time editing experience
+        - no need to know everything - we can focus!
+        It’s clear that the industry will see continued growth in Jamstack & headless. Join me to learn how to take advantage of these technologies to build an eCommerce solution with Nuxt, Vue Storefront, BigCommerce and Storyblok, the headless CMS."
+        speakers:
+          speaker_1: *samuel
       talk_7:
-        item_type: "talk"
-        track: *track_2
-        start_datetime: 2020-09-16T10:00
-        end_datetime: 2020-09-16T10:45
-        talk_title: Lorem ipsum
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
-        speakers:
-          speaker_1: *regular_speaker
-      talk_8:
-        item_type: "workshop"
-        track: *track_3
-        start_datetime: 2020-09-16T11:00
-        end_datetime: 2020-09-16T13:00
-        talk_title: "Workshop title (optional)"
-        talk_description: "Workshop description (optional) very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long "
-        speakers:
-          speaker_1: *regular_speaker
-      talk_9:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2020-09-16T12:00
-        end_datetime: 2020-09-16T13:00
-        talk_title: "talk in second slot #1"
-        talk_description: "test per rowspan"
-        speakers:
-          speaker_1: *regular_speaker
-      talk_10:
-        item_type: "talk"
-        track: *track_2
-        start_datetime: 2020-09-16T11:00
-        end_datetime: 2020-09-16T12:00
-        talk_title: "This is a talk in track 2"
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
-        speakers:
-          speaker_1: *regular_speaker
-      talk_11:
         item_type: "service"
-        start_datetime: 2020-09-16T13:00
-        end_datetime: 2020-09-16T14:00
+        start_datetime:
+        end_datetime:
         talk_title: "Lunch break"
         service_icon: "cutlery"
-      talk_12:
+      talk_8:
         item_type: "talk"
-        track: *track_2
-        start_datetime: 2020-09-16T12:00
-        end_datetime: 2020-09-16T13:00
-        talk_title: "talk in second slot #2"
-        talk_description: "test per rowspan"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "A Better Design-Dev Handoff Experience: Code-based Design System"
+        talk_description: "The Design-Dev handoff workflow has always been a tricky part of our work: It's never easy to 100% replicate the design with code and it's hard to maintain interface consistency on the long run with a graphic-based design system.
+        However, designers and developers have a lot of ideas in common: designers put a lot of effort on interface consistency and developers would like to have a clean infrastructure with reusable components. How about we fill the gap between design and dev and work together in a unified workflow?
+        In this talk, we will explore the idea of translating your graphic-based design system to a new code-based system with a better design-dev handoff experience."
         speakers:
-          speaker_1: *regular_speaker
+          speaker_1: *james
+      talk_9:
+        item_type: "talk"
+        start_datetime:
+        end_datetime:
+        talk_title: "Testing with Vite and the Cypress Component Test Runner"
+        talk_description: "Introducing Cypress's NEW Component Test Runner. We'll demonstrate an exciting, fast, and visual developer workflow built on top of Vite and Cypress's new Component Test Runner."
+        speakers:
+          speaker_1: *jessica
+
 
   # day_2:
   #   date: 2020-09-17T09:00
@@ -147,7 +157,7 @@ days:
   #   talks:
   #     talk_1:
   #       item_type: "service"
-  #       start_datetime: 2020-09-16T09:00
+  #       start_datetime: 2021-04-29T09:00+02
   #       end_datetime: 2020-09-16T09:30
   #       talk_title: "Welcome Coffee"
   #       service_icon: "coffee"
