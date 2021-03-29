@@ -7630,7 +7630,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 .title-container_schedule {
   text-align: center; }
   .title-container_schedule h1 {
-    text-transform: none; }
+    text-transform: capitalize; }
     .title-container_schedule h1.has-text-left {
       margin-bottom: 1em; }
     .title-container_schedule h1.is-centered {
@@ -7665,7 +7665,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
         margin-top: -8em; }
     .timeline .info-bar svg path {
       fill: #fff; }
-  .timeline .talk-anchor {
+  .timeline .talk-anchor-pre {
     padding-top: 10em;
     margin-top: -10em; }
   .timeline table {
@@ -7698,6 +7698,8 @@ a.has-text-danger:hover, a.has-text-danger:focus {
         .timeline table tr td span::after {
           content: ", "; }
         .timeline table tr td span:last-of-type::after {
+          content: ""; }
+        .timeline table tr td span.talk-anchor-pre::after {
           content: ""; }
       .timeline table tr td .track-title {
         font-weight: 600;
