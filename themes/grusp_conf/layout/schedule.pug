@@ -219,7 +219,8 @@ block content
                                     - the_key = key
 
                                 - talk_url = url_for("talks_speakers") + "#" + the_key
-                                strong(id=key).talk-anchor
+                                span(id=the_key).talk-anchor-pre
+                                strong.talk-anchor
                                   a(href=talk_url) !{row_item.talk_title}
 
                                 br
