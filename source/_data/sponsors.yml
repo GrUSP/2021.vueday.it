@@ -16,6 +16,10 @@ sponsors_block_title: "Thanks to our sponsors"
 #     site_url: ""
 gold:
   sponsor1:
+    name: "Iubenda"
+    logo_filename: "iubenda.svg"
+    site_url: "https://www.iubenda.com/en/"
+  sponsor2:
     name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
