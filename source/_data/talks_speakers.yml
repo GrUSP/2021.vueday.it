@@ -48,6 +48,13 @@ speaker_6: &james
   speaker_role: "Product Manager & Lead Designer @ StyleSage"
   speaker_bio: "PhD of Fine Arts, Product Manager & Lead Designer @ StyleSage, Lecturer @ Nebrija University. 7+ years of work experience as UX/UI designer, Frontend Developer & Product Manager."
   speaker_twitter_url: "https://twitter.com/jameshedaweng"
+speaker_7: &denny
+  speaker_in_speaker_lists: true
+  speaker_name: Denny Biasiolli
+  speaker_pic_filename: denny-biasiolli.jpeg
+  speaker_role: "Full Stack Developer"
+  speaker_bio: "In love with sport and technology"
+  speaker_twitter_url: "https://twitter.com/DennyBiasiolli"
 tracks:
   track_1: &track_1
     id: 1
@@ -149,6 +156,14 @@ days:
         talk_description: "Introducing Cypress's NEW Component Test Runner. We'll demonstrate an exciting, fast, and visual developer workflow built on top of Vite and Cypress's new Component Test Runner."
         speakers:
           speaker_1: *jessica
+      talk_10:
+        item_type: "talk"
+        start_datetime:
+        end_datetime:
+        talk_title: "Introducing Vuex in your project"
+        talk_description: "How to add and use Vuex in an existing project without going crazy, also adding tests, which never hurts."
+        speakers:
+          speaker_1: *denny
 
 
   # day_2:
