@@ -31,7 +31,7 @@ silver:
   sponsor1:
     name: "Seesaw"
     logo_filename: "seesaw.png"
-    site_url: "www.seesaw.it/new_look?src=rd21"
+    site_url: "http://www.seesaw.it/new_look?src=rd21"
 bronze:
   sponsor1:
     name: "Stickermule"
