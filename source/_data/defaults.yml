@@ -13,7 +13,7 @@ conference:
 
   # menu and general params
   menu_buy_tickets_label: "Buy tickets"
-  buy_tickets_url: "https://vueday-2021.eventbrite.com"
+  buy_tickets_url: "https://vueday-2021.eventbrite.it?utm_medium=web&utm_source=site&utm_campaign=2021"
   # additional info for microdata / schema.org
   #md_city: "Verona"
   #md_province: "VR"
@@ -123,7 +123,7 @@ conference:
   vimeo_base_url: "https://vimeo.com/album/"
   vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unnhFRv8uda3vYzj1BnaJB5O"
+  youtube_playlist_id: "PLWK9j6ps_unmZny9qwjg20JfR0aD1bTk_"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   vimeo_showcase_id: "6048109"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden

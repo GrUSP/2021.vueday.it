@@ -37,10 +37,10 @@ bronze:
     name: "Stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p1j5"
-#   sponsor2:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+  sponsor2:
+    name: "Stylesage"
+    logo_filename: "stylesage.svg"
+    site_url: "https://stylesage.co/"
 #   sponsor3:
 #     name: ""
 #     logo_filename: ""
