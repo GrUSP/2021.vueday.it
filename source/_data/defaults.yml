@@ -90,7 +90,7 @@ conference:
   newsletter_legal_label: "Information about Mailchimp's privacy policy"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
   speakers_visible: true
-  speakers_title: "speakers"
+  speakers_title: "speaker"
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
   topics_visible: true
   topics_title: "Topics and themes"
