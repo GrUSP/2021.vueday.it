@@ -11,12 +11,12 @@ menu:
   sponsor: sponsor
   # scommentare per generare pagina
     # menu item for workshop
-  # workshop: workshop
+  workshop: workshop
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
 workshop_submenu:
-  workshop_1: rails and vue
-  workshop_2: sample second workshop
+  nuxtjs-beginners-workshop: nuxtjs-beginners-workshop
+#  workshop_2: sample second workshop
 
 # welcome submenu
 welcome_submenu:
