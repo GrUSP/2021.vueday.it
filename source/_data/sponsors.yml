@@ -34,10 +34,14 @@ silver:
     site_url: "http://www.seesaw.it/new_look?src=rd21"
 bronze:
   sponsor1:
+    name: "fingerprint"
+    logo_filename: "fingerprint.svg"
+    site_url: "https://www.fingerprint-supervision.com"
+  sponsor2:
     name: "Stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p1j5"
-  sponsor2:
+  sponsor3:
     name: "Stylesage"
     logo_filename: "stylesage.svg"
     site_url: "https://stylesage.co/"
