@@ -33,9 +33,15 @@
       padding: 20px
       text-align: center
       font-weight: 300
+      &.speaker-card--mc
+        background-color: $main-color
+        .card-content
+          .subtitle, p, .title, em
+            color: $main-text-color_inverted
       .card-content
         display: flex
         flex-direction: column
+        font-weight: initial
         .subtitle, p
           font-size: .9em
           margin: .5em 0 0

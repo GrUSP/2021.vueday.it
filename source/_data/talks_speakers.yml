@@ -55,6 +55,7 @@ speaker_7: &denny
   speaker_role: "Full Stack Developer"
   speaker_bio: "In love with sport and technology"
   speaker_twitter_url: "https://twitter.com/DennyBiasiolli"
+  is_mc: true
 tracks:
   track_1: &track_1
     id: 1
