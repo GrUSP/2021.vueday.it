@@ -4982,9 +4982,14 @@ header {
       padding: 20px;
       text-align: center;
       font-weight: 300; }
+      .speakers__container .inner_holder .speaker-card.speaker-card--mc {
+        background-color: #35495e; }
+        .speakers__container .inner_holder .speaker-card.speaker-card--mc .card-content .subtitle, .speakers__container .inner_holder .speaker-card.speaker-card--mc .card-content p, .speakers__container .inner_holder .speaker-card.speaker-card--mc .card-content .title, .speakers__container .inner_holder .speaker-card.speaker-card--mc .card-content em {
+          color: #fff; }
       .speakers__container .inner_holder .speaker-card .card-content {
         display: flex;
-        flex-direction: column; }
+        flex-direction: column;
+        font-weight: initial; }
         .speakers__container .inner_holder .speaker-card .card-content .subtitle, .speakers__container .inner_holder .speaker-card .card-content p {
           font-size: .9em;
           margin: .5em 0 0; }
