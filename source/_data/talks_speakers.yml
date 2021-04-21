@@ -55,7 +55,25 @@ speaker_7: &denny
   speaker_role: "Full Stack Developer"
   speaker_bio: "In love with sport and technology"
   speaker_twitter_url: "https://twitter.com/DennyBiasiolli"
+speaker_8: &tim
+  speaker_in_speaker_lists: true
+  speaker_name: Tim Benniks
   is_mc: true
+  speaker_pic_filename: tim-benniks.png
+  speaker_role: "MASTER OF CEREMONIES - Principal Developer Advocate @ Uniform"
+  speaker_bio: "has worked at different agencies in Amsterdam and Paris over the past fifteen years. He has been lucky enough to have had global clients like Nike, Heineken, Google, Tommy Hilfiger, EA Games, Chanel, Proctor & Gamble, Louis Vuitton and Hermès. Nowadays, Tim is Principal Developer Advocate at Uniform where he works on developer relations, community building and content creation. Next to a job at a start-up Tim also does work in the developer community by speaking at conferences, creating content and collaborating with startups like Cloudinary, Prismic, Algolia, Zeplin and NuxtJS. It’s all about quality, community and building fancy websites. A demanding job also needs balancing. Tim plays guitar and loves family time with his wife, cats and a little corgi called Princess Nugget."
+  speaker_twitter_url: "https://twitter.com/timbenniks"
+
+speakers:
+  speaker_1: *amarachi
+  speaker_2: *anthony
+  speaker_3: *alexander
+  speaker_4: *jessica
+  speaker_5: *samuel
+  speaker_6: *james
+  speaker_7: *denny
+  speaker_8: *tim
+
 tracks:
   track_1: &track_1
     id: 1
@@ -180,6 +198,7 @@ days:
         end_datetime: 2021-04-29T16:45+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
+
 
   # day_2:
   #   date: 2020-09-17T09:00

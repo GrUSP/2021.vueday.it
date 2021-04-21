@@ -45,6 +45,10 @@ bronze:
     name: "Stylesage"
     logo_filename: "stylesage.svg"
     site_url: "https://stylesage.co/"
+  sponsor4:
+    name: "uniform"
+    logo_filename: "uniform.svg"
+    site_url: "https://uniform.dev"
 #   sponsor3:
 #     name: ""
 #     logo_filename: ""
