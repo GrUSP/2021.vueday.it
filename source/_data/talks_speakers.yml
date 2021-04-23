@@ -4,36 +4,28 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &amarachi
-  speaker_in_speaker_lists: true
-  speaker_name: Amarachi Amaechi
-  speaker_pic_filename: amarachi-amaechi.png
-  speaker_role: Frontend developer
-  speaker_bio: "is a Frontend developer and Technical writer. She is also the Founder and Organiser of Vuejs Nigeria."
-  speaker_github_url: ""
-  speaker_twitter_url: "https://twitter.com/AmarachiAmaechi"
-speaker_2: &anthony
+speaker_1: &anthony
   speaker_in_speaker_lists: true
   speaker_name: Anthony Fu
   speaker_pic_filename: anthony-fu.png
   speaker_role: "Vue.js Core Team member"
   speaker_bio: "is member of Vue.js and Vite.js. Passionate about making tools and improving DX."
   speaker_twitter_url: "https://twitter.com/antfu7"
-speaker_3: &alexander
+speaker_2: &alexander
   speaker_in_speaker_lists: true
   speaker_name: Alexander Lichter
   speaker_pic_filename: alexander-lichter.png
   speaker_role: "Web Development Consultant @ Developmint"
   speaker_bio: "is a Nuxt.js core-team member and full-stack developer in his twenties. When not working on open-source projects, he gives talks at conferences, writes blog posts or consults other companies on web development with a focus on Vue.js and Nuxt.js."
   speaker_twitter_url: "https://twitter.com/TheAlexLichter"
-speaker_4: &jessica
+speaker_3: &jessica
   speaker_in_speaker_lists: true
   speaker_name: Jessica Sachs
   speaker_pic_filename: jessica-sachs.png
   speaker_role: "Tech Lead @ Cypress.io"
   speaker_bio: "is tech Lead of Cypress.io Component Testing, Vue Mastery Instructor, and Maintainer of Vue Test Utils"
   speaker_twitter_url: "https://twitter.com/@_JessicaSachs"
-speaker_5: &samuel
+speaker_4: &samuel
   speaker_in_speaker_lists: true
   speaker_name: Samuel Snopko
   speaker_pic_filename: samuel-snopko.png
@@ -41,21 +33,21 @@ speaker_5: &samuel
   speaker_bio: "is responsible for the developer relations at Storyblok. As the headless system's head of devrel, he spends most of his time buried in the documentation and creating various experiments and demos. He always defines himself as Creative FrontEnd Knight & DesignOps enthusiast with a passion for JAMStack and the beautiful web.
   As a determined community believer, he co-created multiple meetups and is always happy to help any community in need."
   speaker_twitter_url: "https://twitter.com/samuelsnopko"
-speaker_6: &james
+speaker_5: &james
   speaker_in_speaker_lists: true
   speaker_name: James Heda Weng
   speaker_pic_filename: james-heda-weng.png
   speaker_role: "Product Manager & Lead Designer @ StyleSage"
   speaker_bio: "PhD of Fine Arts, Product Manager & Lead Designer @ StyleSage, Lecturer @ Nebrija University. 7+ years of work experience as UX/UI designer, Frontend Developer & Product Manager."
   speaker_twitter_url: "https://twitter.com/jameshedaweng"
-speaker_7: &denny
+speaker_6: &denny
   speaker_in_speaker_lists: true
   speaker_name: Denny Biasiolli
   speaker_pic_filename: denny-biasiolli.jpeg
   speaker_role: "Full Stack Developer"
   speaker_bio: "In love with sport and technology"
   speaker_twitter_url: "https://twitter.com/DennyBiasiolli"
-speaker_8: &tim
+speaker_7: &tim
   speaker_in_speaker_lists: true
   speaker_name: Tim Benniks
   is_mc: true
@@ -65,14 +57,13 @@ speaker_8: &tim
   speaker_twitter_url: "https://twitter.com/timbenniks"
 
 speakers:
-  speaker_1: *amarachi
+  speaker_1: *denny
   speaker_2: *anthony
-  speaker_3: *alexander
-  speaker_4: *jessica
-  speaker_5: *samuel
-  speaker_6: *james
-  speaker_7: *denny
-  speaker_8: *tim
+  speaker_3: *james
+  speaker_4: *alexander
+  speaker_5: *jessica
+  speaker_6: *samuel
+  speaker_7: *tim
 
 tracks:
   track_1: &track_1
@@ -132,10 +123,10 @@ days:
         track: *track_1
         start_datetime: 2021-04-29T12:00+02:00
         end_datetime: 2021-04-29T12:45+02:00
-        talk_title: "Fast, optimized & SEO friendly apps with Nuxt"
-        talk_description: "One of the biggest selling points of Nuxt.js is that it can help your application with Search Engine Optimization (SEO) and to rank better on Google. In this talk, we’ll go over the best practices to make sure that your Nuxt application is set up properly to rank on search engines."
+        talk_title: "tbd"
+        talk_description: "tbd"
         speakers:
-          speaker_1: *amarachi
+          speaker_1: *tim
       talk_6:
         item_type: "talk"
         track: *track_1
