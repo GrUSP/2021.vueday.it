@@ -132,7 +132,7 @@ days:
         track: *track_1
         start_datetime: 2021-04-29T14:30+02:00
         end_datetime: 2021-04-29T15:30+02:00
-        talk_title: "A sneak peak into the future headless eCommerce"
+        talk_title: "A sneak peek into the future headless eCommerce"
         talk_description: "Join us as we look into our crystal ball and predict the future! Jamstack brought us the decoupled (not dystopian 😇) architecture. This new wave of SaaS products and services is here to stay. The advantages are clear:
         - better UX
         - better DX
