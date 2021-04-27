@@ -123,8 +123,8 @@ days:
         track: *track_1
         start_datetime: 2021-04-29T12:00+02:00
         end_datetime: 2021-04-29T12:45+02:00
-        talk_title: "tbd"
-        talk_description: "tbd"
+        talk_title: "The magical combination for creating a modern website."
+        talk_description: "I recently rebuilt the site with several tools, the combination of which is ideal for modern web development. I’m excited about the result of the revamp. Let’s see how long that thrill lasts!"
         speakers:
           speaker_1: *tim
       talk_6:
