@@ -121,8 +121,8 @@ days:
       talk_5:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2021-04-29T12:00+02:00
-        end_datetime: 2021-04-29T12:45+02:00
+        start_datetime: 2021-04-29T16:45+02:00
+        end_datetime: 2021-04-29T17:30+02:00
         talk_title: "The magical combination for creating a modern website."
         talk_description: "I recently rebuilt the site with several tools, the combination of which is ideal for modern web development. I’m excited about the result of the revamp. Let’s see how long that thrill lasts!"
         speakers:
@@ -163,8 +163,8 @@ days:
       talk_9:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2021-04-29T16:45+02:00
-        end_datetime: 2021-04-29T17:30+02:00
+        start_datetime: 2021-04-29T12:00+02:00
+        end_datetime: 2021-04-29T12:45+02:00
         talk_title: "Testing with Vite and the Cypress Component Test Runner"
         talk_description: "Introducing Cypress's NEW Component Test Runner. We'll demonstrate an exciting, fast, and visual developer workflow built on top of Vite and Cypress's new Component Test Runner."
         speakers:
