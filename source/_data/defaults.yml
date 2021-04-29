@@ -27,7 +27,7 @@ conference:
   title: "vueday Digital Edition"
   city: "online"
   date: 2021-04-29T10:00+02:00
-  countdown_visible: true
+  countdown_visible: false
   countdown_days: "days"
   countdown_hours: "hours"
   countdown_minutes: "minutes"
